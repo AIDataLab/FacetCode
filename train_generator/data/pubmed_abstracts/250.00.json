@@ -1,0 +1,22 @@
+{
+  "code": "250.00",
+  "pmid": "33248275",
+  "title": "Management of Type 2 Diabetes Mellitus: A Systematic Review of Glycemic Control Strategies",
+  "abstract": "Type 2 diabetes mellitus (T2DM) represents a major global health burden with increasing prevalence. This review examines current therapeutic approaches for glycemic management in T2DM, including lifestyle modifications, metformin as first-line pharmacotherapy, and second-line agents. Recent evidence supports early combination therapy in patients with inadequate glycemic control on metformin monotherapy. The cardiovascular benefits of certain newer agents, including SGLT2 inhibitors and GLP-1 receptor agonists, have been demonstrated in large outcome trials. Individualized treatment approaches considering patient preferences, comorbidities, and risk profiles are essential for optimal management. Hypoglycemia prevention and weight management remain important considerations in medication selection.",
+  "key_findings": [
+    "Metformin remains first-line pharmacotherapy for T2DM",
+    "SGLT2 inhibitors provide cardiovascular and renal protection",
+    "GLP-1 agonists offer weight loss benefits alongside glycemic control",
+    "Early intensification of therapy improves long-term outcomes"
+  ],
+  "clinical_dimensions": {
+    "definition": "Type 2 diabetes mellitus is a metabolic disorder characterized by insulin resistance combined with relative insulin deficiency, resulting in hyperglycemia. It typically develops in adults but is increasingly seen in younger populations paralleling the obesity epidemic.",
+    "symptoms": "Classic triad includes polyuria (excessive urination), polydipsia (excessive thirst), and polyphagia (excessive hunger). Unexplained weight loss, fatigue, blurred vision, and slow wound healing are common presentations. Many patients are asymptomatic and diagnosed through routine screening.",
+    "diagnosis": "Diagnostic criteria: fasting plasma glucose >=126 mg/dL (7.0 mmol/L), HbA1c >=6.5% (48 mmol/mol), or 2-hour plasma glucose >=200 mg/dL during oral glucose tolerance test. Random glucose >=200 mg/dL with classic symptoms also qualifies.",
+    "treatment": "First-line: lifestyle intervention (diet, exercise, weight management) plus metformin. Second-line options: sulfonylureas, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists, thiazolidinediones, insulin. Selection based on patient factors, comorbidities, and preference.",
+    "complications": "Microvascular: diabetic neuropathy (peripheral neuropathy, autonomic neuropathy), diabetic retinopathy, diabetic nephropathy. Macrovascular: cardiovascular disease, peripheral vascular disease, cerebrovascular disease. Other: foot ulcers, infections, diabetic ketoacidosis (rare in T2DM).",
+    "prognosis": "T2DM is a chronic progressive disease. Intensive glycemic control reduces microvascular complications. Cardiovascular risk reduction through lifestyle modification and cardioprotective medications is essential for improving overall outcomes."
+  },
+  "related_codes": ["E11.9", "E11.65", "E11.40"],
+  "source": "PubMed Central"
+}

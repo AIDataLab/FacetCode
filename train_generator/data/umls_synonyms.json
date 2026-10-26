@@ -1,0 +1,121 @@
+{
+  "umls_synonyms": [
+    {
+      "code": "486",
+      "description": "Pneumonia, organism unspecified",
+      "cui": "C0032285",
+      "synonyms": [
+        "Pneumonia",
+        "Lung infection",
+        "Community acquired pneumonia",
+        "CAP",
+        "Pneumonitis",
+        "Lower respiratory tract infection",
+        "Acute pneumonia",
+        "Infection of lung"
+      ],
+      "semantic_relations": {
+        "has_symptom": ["cough", "fever", "dyspnea", "tachypnea", "chest pain", "sputum production"],
+        "treated_by": ["antibiotics", "antimicrobial agents", "bronchodilators", "corticosteroids"],
+        "diagnosed_by": ["chest x-ray", "chest CT", "sputum culture", "blood culture", "CBC"],
+        "associated_with": ["respiratory failure", "sepsis", "pleural effusion", "abscess"],
+        "isa": ["Respiratory infection", "Lower respiratory disease"]
+      },
+      "mesh_terms": ["Pneumonia", "Lung Inflammation", "Respiratory Tract Infections"]
+    },
+    {
+      "code": "250.00",
+      "description": "Diabetes mellitus, type II, not stated as uncontrolled",
+      "cui": "C0011860",
+      "synonyms": [
+        "Type 2 diabetes",
+        "T2DM",
+        "Adult-onset diabetes",
+        "Non-insulin dependent diabetes",
+        "NIDDM",
+        "Diabetes mellitus type 2",
+        "DM type II"
+      ],
+      "semantic_relations": {
+        "has_symptom": ["polyuria", "polydipsia", "polyphagia", "weight loss", "fatigue", "blurred vision"],
+        "treated_by": ["metformin", "insulin", "sulfonylureas", "DPP-4 inhibitors", "GLP-1 agonists"],
+        "diagnosed_by": ["fasting glucose", "HbA1c", "oral glucose tolerance test", "random glucose"],
+        "associated_with": ["diabetic neuropathy", "diabetic retinopathy", "diabetic nephropathy", "cardiovascular disease"],
+        "isa": ["Endocrine disorder", "Metabolic disease"]
+      },
+      "mesh_terms": ["Diabetes Mellitus, Type 2", "Diabetes Mellitus, Non-Insulin Dependent"]
+    },
+    {
+      "code": "414.01",
+      "description": "Coronary atherosclerosis of native coronary artery",
+      "cui": "C1956236",
+      "synonyms": [
+        "Coronary artery disease",
+        "CAD",
+        "Coronary heart disease",
+        "Atherosclerotic heart disease",
+        "Ischemic heart disease",
+        "Coronary stenosis",
+        "Native coronary artery atherosclerosis"
+      ],
+      "semantic_relations": {
+        "has_symptom": ["chest pain", "angina", "dyspnea", "fatigue", "palpitations"],
+        "treated_by": ["statins", "beta blockers", "ACE inhibitors", "aspirin", "nitroglycerin", "revascularization"],
+        "diagnosed_by": ["coronary angiography", "stress test", "CT coronary angiography", "ECG", "cardiac enzymes"],
+        "associated_with": ["myocardial infarction", "heart failure", "arrhythmias", "sudden cardiac death"],
+        "isa": ["Cardiovascular disease", "Arteriosclerotic disease"]
+      },
+      "mesh_terms": ["Coronary Artery Disease", "Atherosclerosis", "Coronary Heart Disease"]
+    },
+    {
+      "code": "584.9",
+      "description": "Acute kidney failure, unspecified",
+      "cui": "C0025086",
+      "synonyms": [
+        "Acute kidney injury",
+        "AKI",
+        "Acute renal failure",
+        "ARF",
+        "Renal failure acute",
+        "Kidney failure acute",
+        "Acute tubular necrosis"
+      ],
+      "semantic_relations": {
+        "has_symptom": ["oliguria", "anuria", "edema", "fatigue", "nausea", "confusion"],
+        "treated_by": ["fluid management", "dialysis", "nephrology consultation", "avoid nephrotoxins"],
+        "diagnosed_by": ["serum creatinine", "BUN", "urinalysis", "renal ultrasound", "urine output monitoring"],
+        "associated_with": ["uremia", "hyperkalemia", "metabolic acidosis", "fluid overload"],
+        "has_cause": ["hypovolemia", "nephrotoxic drugs", "sepsis", "contrast dye", "obstruction"],
+        "isa": ["Kidney disease", "Renal disease"]
+      },
+      "mesh_terms": ["Kidney Failure", "Acute Kidney Injury", "Renal Insufficiency"]
+    },
+    {
+      "code": "430",
+      "description": "Subarachnoid hemorrhage",
+      "cui": "C0038524",
+      "synonyms": [
+        "SAH",
+        "Subarachnoid bleeding",
+        "Intracranial hemorrhage subarachnoid",
+        "Spontaneous subarachnoid hemorrhage",
+        "Traumatic subarachnoid hemorrhage"
+      ],
+      "semantic_relations": {
+        "has_symptom": ["sudden severe headache", "neck stiffness", "photophobia", "loss of consciousness", "focal neurological deficits"],
+        "treated_by": ["nimodipine", "surgical clipping", "endovascular coiling", "blood pressure control", "analgesics"],
+        "diagnosed_by": ["CT head", "LP", "CTA head", "cerebral angiography", "MRI"],
+        "associated_with": ["cerebral vasospasm", "hydrocephalus", "rebleeding", "seizures", "coma"],
+        "has_cause": ["ruptured aneurysm", "trauma", "vascular malformation"],
+        "isa": ["Cerebrovascular disease", "Intracranial hemorrhage"]
+      },
+      "mesh_terms": ["Subarachnoid Hemorrhage", "Intracranial Hemorrhages", "Cerebrovascular Disorders"]
+    }
+  ],
+  "metadata": {
+    "umls_version": "2023AB",
+    "semantic_relation_types": ["has_symptom", "treated_by", "diagnosed_by", "associated_with", "has_cause", "isa"],
+    "total_concepts": 8922,
+    "source": "UMLS Metathesaurus"
+  }
+}

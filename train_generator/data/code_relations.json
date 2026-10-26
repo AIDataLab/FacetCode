@@ -1,0 +1,105 @@
+{
+  "code_relations": [
+    {
+      "code": "486",
+      "description": "Pneumonia, organism unspecified",
+      "parent": {
+        "code": "485",
+        "description": "Pneumonia and influenza"
+      },
+      "siblings": [
+        {"code": "487", "description": "Influenza with pneumonia"},
+        {"code": "488", "description": "Influenza due to identified novel H1N1 influenza virus"}
+      ],
+      "children": [],
+      "ancestors": [
+        {"code": "460", "description": "Acute respiratory infections"},
+        {"code": "480-489", "description": "Pneumonia and influenza"}
+      ]
+    },
+    {
+      "code": "250.00",
+      "description": "Diabetes mellitus, type II, not stated as uncontrolled",
+      "parent": {
+        "code": "250",
+        "description": "Diabetes mellitus"
+      },
+      "siblings": [
+        {"code": "250.01", "description": "Diabetes mellitus, type II, uncontrolled"},
+        {"code": "250.10", "description": "Diabetes mellitus, type I, not stated as uncontrolled"},
+        {"code": "250.11", "description": "Diabetes mellitus, type I, uncontrolled"},
+        {"code": "250.12", "description": "Diabetes mellitus, type II, hyperosmolarity"}
+      ],
+      "children": [],
+      "ancestors": [
+        {"code": "240-279", "description": "Endocrine, nutritional, metabolic diseases"},
+        {"code": "250", "description": "Diabetes mellitus"}
+      ]
+    },
+    {
+      "code": "414.01",
+      "description": "Coronary atherosclerosis of native coronary artery",
+      "parent": {
+        "code": "414",
+        "description": "Other forms of chronic ischemic heart disease"
+      },
+      "siblings": [
+        {"code": "414.00", "description": "Coronary atherosclerosis, unspecified"},
+        {"code": "414.02", "description": "Coronary atherosclerosis of artery bypass graft"},
+        {"code": "414.10", "description": "Aneurysm, heart (wall)"},
+        {"code": "414.11", "description": "Coronary atherosclerosis due to lipid rich plaque"}
+      ],
+      "children": [],
+      "ancestors": [
+        {"code": "390-459", "description": "Diseases of the circulatory system"},
+        {"code": "410-414", "description": "Ischemic heart disease"},
+        {"code": "414", "description": "Other forms of chronic ischemic heart disease"}
+      ]
+    },
+    {
+      "code": "584.9",
+      "description": "Acute kidney failure, unspecified",
+      "parent": {
+        "code": "584",
+        "description": "Acute kidney failure"
+      },
+      "siblings": [
+        {"code": "584.5", "description": "Acute kidney failure with lesion of tubular necrosis"},
+        {"code": "584.6", "description": "Acute kidney failure with lesion of renal cortical necrosis"},
+        {"code": "584.7", "description": "Acute kidney failure with lesion of renal medullary necrosis"},
+        {"code": "584.8", "description": "Acute kidney failure with other specified pathological lesion"}
+      ],
+      "children": [],
+      "ancestors": [
+        {"code": "580-629", "description": "Diseases of the genitourinary system"},
+        {"code": "580-589", "description": "Nephritis, nephrotic syndrome, and nephrosis"},
+        {"code": "584", "description": "Acute kidney failure"}
+      ]
+    },
+    {
+      "code": "V45.81",
+      "description": "Aortocoronary bypass status",
+      "parent": {
+        "code": "V45",
+        "description": "Other postprocedural states"
+      },
+      "siblings": [
+        {"code": "V45.82", "description": "Percutaneous transluminal coronary angioplasty status"},
+        {"code": "V45.83", "description": "Breast implant status"},
+        {"code": "V45.84", "description": "Dental restoration status"},
+        {"code": "V45.89", "description": "Other postprocedural status"}
+      ],
+      "children": [],
+      "ancestors": [
+        {"code": "V01-V91", "description": "Persons with potential health hazards related to family and personal history"},
+        {"code": "V45", "description": "Other postprocedural states"}
+      ]
+    }
+  ],
+  "metadata": {
+    "icd_version": "ICD-9-CM",
+    "source": "MIMIC-III",
+    "relation_types": ["parent", "child", "sibling", "ancestor"],
+    "total_codes": 8922
+  }
+}

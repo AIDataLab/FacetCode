@@ -1,0 +1,21 @@
+{
+  "code": "486",
+  "pmid": "35067982",
+  "title": "Community-Acquired Pneumonia: Advances in Diagnosis and Management",
+  "abstract": "Community-acquired pneumonia (CAP) remains a significant cause of morbidity and mortality worldwide. Recent advances in diagnostic techniques, including rapid microbial detection methods and point-of-care testing, have improved early identification of causative pathogens. Empiric antibiotic therapy remains the cornerstone of treatment, with guidelines recommending会根据本地耐药模式和患者特异性因素选择方案。The role of biomarkers such as procalcitonin and C-reactive protein in guiding antibiotic stewardship has been validated in multiple clinical trials. Severe CAP requiring ICU admission benefits from early goal-directed therapy and close monitoring for complications including respiratory failure, septic shock, and organ dysfunction.",
+  "key_findings": [
+    "Rapid diagnostic methods reduce time to appropriate antibiotic therapy",
+    "Procalcitonin-guided treatment reduces antibiotic exposure without worsening outcomes",
+    "Severity scoring tools (CURB-65, PSI) aid in site-of-care decisions"
+  ],
+  "clinical_dimensions": {
+    "definition": "Community-acquired pneumonia is an acute infection of the pulmonary parenchyma acquired outside of a hospital or long-term care setting, presenting with symptoms of acute lower respiratory tract infection.",
+    "symptoms": "Typical presentation includes productive cough, fever, pleuritic chest pain, dyspnea, and tachypnea. Elderly patients may present with altered mental status or generalized weakness without prominent respiratory symptoms.",
+    "diagnosis": "Diagnosis requires clinical assessment (symptoms, vital signs, physical examination) combined with radiographic evidence of new infiltrate. Microbiology testing guides targeted therapy when positive.",
+    "treatment": "Outpatient treatment: beta-lactam plus macrolide or fluoroquinolone monotherapy. Inpatient: beta-lactam (ceftriaxone) plus macrolide or doxycycline. ICU: beta-lactam plus macrolide or fluoroquinolone.",
+    "complications": "Common complications include pleural effusion, empyema, lung abscess, bacteremia, septic shock, respiratory failure requiring mechanical ventilation, and acute respiratory distress syndrome (ARDS).",
+    "prognosis": "Most patients respond to appropriate therapy within 48-72 hours. Failure to improve suggests resistant organisms, inadequate coverage, or complications requiring intervention."
+  },
+  "related_codes": ["J12.9", "J18.9", "J15.9"],
+  "source": "PubMed Central"
+}

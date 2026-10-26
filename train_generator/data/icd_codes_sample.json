@@ -1,0 +1,46 @@
+[
+  {
+    "code": "486",
+    "description": "Pneumonia, organism unspecified",
+    "parent_description": "Pneumonia",
+    "sibling_descriptions": ["Viral pneumonia", "Bacterial pneumonia", "Aspiration pneumonia"],
+    "passages": [
+      "Pneumonia is an acute lower respiratory infection characterized by inflammation of the pulmonary parenchyma, alveolar consolidation, and impaired gas exchange. It can be caused by bacterial, viral, or atypical organisms. Common symptoms include productive cough with purulent sputum, high-grade fever (>38.5 C), pleuritic chest pain, tachypnea (>20 breaths/min), and hypoxemia with SpO2 <94% on room air. Diagnosis requires lobar or segmental consolidation on chest X-ray or CT, leukocytosis with left shift, elevated CRP/procalcitonin, and sputum Gram stain/culture. Treatment follows ATS/IDSA guidelines with empirical antibiotic therapy.",
+      "Pneumonia is an infection that inflames the air sacs in one or both lungs. The air sacs may fill with fluid or pus, causing symptoms such as cough with phlegm, fever, chills, and difficulty breathing. Diagnosis typically involves chest imaging, blood tests, and sputum culture. Treatment includes antibiotics for bacterial causes, along with supportive care such as rest, adequate hydration, and oxygen therapy if needed."
+    ],
+    "augment": [
+      {
+        "pid": 0,
+        "passage": "Pneumonia is an acute lower respiratory infection characterized by inflammation of the pulmonary parenchyma, alveolar consolidation, and impaired gas exchange. It can be caused by bacterial, viral, or atypical organisms. Common symptoms include productive cough with purulent sputum, high-grade fever (>38.5 C), pleuritic chest pain, tachypnea (>20 breaths/min), and hypoxemia with SpO2 <94% on room air. Diagnosis requires lobar or segmental consolidation on chest X-ray or CT, leukocytosis with left shift, elevated CRP/procalcitonin, and sputum Gram stain/culture. Treatment follows ATS/IDSA guidelines with empirical antibiotic therapy.",
+        "llama3.2-1b-instruct_rewrite": "Acute lower respiratory infection marked by pulmonary parenchymal inflammation, alveolar consolidation, and gas exchange impairment. Etiology includes bacterial, viral, and atypical pathogens. Clinical presentation features productive cough with purulent sputum, high temperature exceeding 38.5 C, pleuritic chest discomfort, respiratory rate above 20/min, and oxygen saturation below 94% on room air. Diagnostic confirmation relies on lobar or segmental infiltrates on chest radiography or CT, leukocytosis with left shift, elevated inflammatory markers, and microbiologic cultures. Management per ATS/IDSA recommendations includes empirical antimicrobial therapy.",
+        "llama3.2-1b-instruct_qa": [
+          {"question": "What are the hallmark symptoms of pneumonia that differentiate it from other respiratory infections?", "answer": "Productive cough with purulent sputum, high-grade fever exceeding 38.5 C, pleuritic chest pain, tachypnea with respiratory rate above 20 breaths per minute, and hypoxemia with oxygen saturation below 94% on room air.", "full_answer": "Pneumonia typically presents with productive cough containing purulent sputum, high fever above 38.5 degrees Celsius, pleuritic chest pain that worsens with breathing, tachypnea exceeding 20 breaths per minute, and hypoxemia demonstrated by SpO2 below 94 percent."},
+          {"question": "What diagnostic criteria must be met to confirm a pneumonia diagnosis?", "answer": "Lobar or segmental consolidation on chest X-ray or CT, leukocytosis with left shift, elevated CRP and procalcitonin levels, and positive sputum Gram stain or culture results.", "full_answer": "Confirmation of pneumonia requires imaging evidence of lobar or segmental lung consolidation on chest radiograph or computed tomography, laboratory findings including leukocytosis with left shift and elevated inflammatory markers such as C-reactive protein and procalcitonin, and microbiologic identification via sputum Gram stain and culture."},
+          {"question": "What treatment guidelines govern the management of pneumonia?", "answer": "ATS/IDSA guidelines recommend empirical antibiotic therapy tailored to severity and likely pathogens, with consideration of local resistance patterns.", "full_answer": "The American Thoracic Society and Infectious Diseases Society of America guidelines recommend empirical antibiotic therapy for pneumonia treatment, with selection based on disease severity assessment and local antimicrobial resistance epidemiology."}
+        ]
+      }
+    ]
+  },
+  {
+    "code": "250.00",
+    "description": "Diabetes mellitus, type II, not stated as uncontrolled",
+    "parent_description": "Diabetes mellitus",
+    "sibling_descriptions": ["Diabetes mellitus type I", "Gestational diabetes", "Secondary diabetes"],
+    "passages": [
+      "Type 2 diabetes mellitus is a metabolic disorder characterized by insulin resistance and relative insulin deficiency. It commonly presents with polyuria, polydipsia, polyphagia, and unexplained weight loss. Diagnosis is confirmed by fasting plasma glucose >=126 mg/dL, HbA1c >=6.5%, or random plasma glucose >=200 mg/dL with symptoms. Treatment includes lifestyle modifications, metformin as first-line pharmacotherapy, and additional agents for glycemic control.",
+      "Type 2 diabetes is a chronic condition affecting how the body processes blood sugar. The body either doesn't produce enough insulin or can't use it effectively. Symptoms may include increased thirst, frequent urination, hunger, fatigue, and blurred vision. Management involves diet control, exercise, blood sugar monitoring, and medications."
+    ],
+    "augment": [
+      {
+        "pid": 0,
+        "passage": "Type 2 diabetes mellitus is a metabolic disorder characterized by insulin resistance and relative insulin deficiency. It commonly presents with polyuria, polydipsia, polyphagia, and unexplained weight loss. Diagnosis is confirmed by fasting plasma glucose >=126 mg/dL, HbA1c >=6.5%, or random plasma glucose >=200 mg/dL with symptoms. Treatment includes lifestyle modifications, metformin as first-line pharmacotherapy, and additional agents for glycemic control.",
+        "llama3.2-1b-instruct_rewrite": "A metabolic disease marked by insulin resistance combined with relative insufficient insulin secretion. Typical manifestations encompass excessive urination, heightened thirst, increased hunger, and unintended weight loss. Diagnostic confirmation involves fasting blood sugar of 126 mg/dL or higher, glycated hemoglobin of 6.5 percent or above, or casual blood glucose of 200 mg/dL or greater accompanied by clinical signs. Management comprises behavioral changes, metformin as initial drug therapy, and supplementary medications for glucose regulation.",
+        "llama3.2-1b-instruct_qa": [
+          {"question": "What are the classic presenting symptoms of type 2 diabetes mellitus?", "answer": "Polyuria, polydipsia, polyphagia, and unexplained weight loss represent the classic symptom triad.", "full_answer": "Type 2 diabetes mellitus typically presents with the classic symptoms of polyuria (excessive urination), polydipsia (excessive thirst), polyphagia (excessive hunger), and unexplained weight loss."},
+          {"question": "What laboratory values confirm a diagnosis of type 2 diabetes?", "answer": "Fasting plasma glucose >=126 mg/dL, HbA1c >=6.5%, or random plasma glucose >=200 mg/dL with accompanying symptoms.", "full_answer": "Diagnosis requires either fasting plasma glucose at or above 126 mg/dL, glycated hemoglobin at or above 6.5 percent, or random plasma glucose at or above 200 mg/dL in the presence of typical symptoms."},
+          {"question": "What is the recommended first-line pharmacological treatment for type 2 diabetes?", "answer": "Metformin is recommended as the initial pharmacologic agent for glycemic control in type 2 diabetes.", "full_answer": "Metformin serves as the first-line pharmacological treatment for type 2 diabetes mellitus, typically initiated after lifestyle modifications have proven insufficient for glycemic control."}
+        ]
+      }
+    ]
+  }
+]
